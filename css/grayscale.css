@@ -146,23 +146,8 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
     background: url(../img/header-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.intro-archive {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
     color: #fff;
-    background: url(../img/archive-header.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -197,6 +182,50 @@ a:focus {
         font-size: 26px;
     }
 }
+
+.intro-archive {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    background: url(../img/archive-header.jpg) no-repeat bottom center scroll;
+    color: #fff;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-archive  .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro-archive  .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro-archive  .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    .intro-archive  {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro-archive  .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro-archive  .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
 
 .btn-circle {
     width: 70px;
