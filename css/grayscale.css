@@ -211,6 +211,22 @@ a:focus {
     font-size: 18px;
 }
 
+@media(min-width:768px) {
+    .intro-archive {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro-archive .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro-archive .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
+
 .intro-contact {
     display: table;
     width: 100%;
