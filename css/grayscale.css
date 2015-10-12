@@ -211,17 +211,44 @@ a:focus {
     font-size: 18px;
 }
 
+.intro-contact {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-contact  .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro-contact  .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro-contact  .intro-body .intro-text {
+    font-size: 18px;
+}
+
 @media(min-width:768px) {
-    .intro-archive  {
+    .intro-contact  {
         height: 100%;
         padding: 0;
     }
 
-    .intro-archive  .intro-body .brand-heading {
+    .intro-contact  .intro-body .brand-heading {
         font-size: 100px;
     }
 
-    .intro-archive  .intro-body .intro-text {
+    .intro-contact  .intro-body .intro-text {
         font-size: 26px;
     }
 }
@@ -441,4 +468,36 @@ body {
 
 .footer-txt {
     font-size:16px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+}
+
+.bigicon {
+        font-size: 35px !important;
+        color: #2F4F4F;
+}
+
+.form-control {
+    background-color: #000;
+    border:1px solid #2F4F4F;
+    color:#2F4F4F;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.btn-primary {
+    background-color: #2F4F4F;
+    border-color:#2F4F4F;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #172727;
+    border-color:#2F4F4F;
+    border-radius: 5px;
 }
