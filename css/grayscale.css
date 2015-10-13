@@ -144,15 +144,15 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
-    text-align: center;
+    padding: 100px 0 !important;
+    text-align: center !important;
     background: url(../img/header-bg.jpg) no-repeat bottom center scroll;
-    color: #fff;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    color: #fff !important;
+    background-color: #000 !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
 }
 
 .intro .intro-body {
